@@ -7,6 +7,7 @@ from types import SimpleNamespace
 
 import pytest
 
+from dynamo.sglang.request_handlers.handler_base import BaseWorkerHandler
 from dynamo.sglang.request_handlers.llm.decode_handler import (
     DecodeWorkerHandler,
     _extract_media_urls,
